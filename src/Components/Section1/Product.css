@@ -1,0 +1,15 @@
+
+@media (max-width: 768px) {
+    
+    .titulo1{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 3rem;
+    }
+    .h1{
+        font-family: 'Dancing Script', cursive;
+        font-weight: 200;
+        color: #655109;
+    }
+}
