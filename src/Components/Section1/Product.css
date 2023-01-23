@@ -1,15 +1,43 @@
 
 @media (max-width: 768px) {
     
-    .titulo1{
+    .section1{
         display: flex;
         justify-content: center;
-        text-align: center;
+        align-items: center;
         padding-top: 3rem;
+        flex-direction: column;
+        gap: 1rem;
+        padding-top: 1rem;
     }
+    .line{
+        width: 200px;
+        
+    }
+
     .h1{
         font-family: 'Dancing Script', cursive;
-        font-weight: 200;
+        font-weight: 100;
         color: #655109;
     }
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+.line{
+    width: 300px;
+    
+}
+
+.h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 300;
+    color: #655109;
 }
